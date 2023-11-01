@@ -1,6 +1,6 @@
 import request from '../utils/request';
 const api={
-    //获得在线商品
+    //获得在线商品，，
     findIdleTiem(query) {
         return request({
             url: '/idle/find',
